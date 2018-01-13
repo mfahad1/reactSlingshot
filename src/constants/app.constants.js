@@ -1,0 +1,1 @@
+export const ApiUrl = 'http://ec2-52-14-250-16.us-east-2.compute.amazonaws.com:3000/';
