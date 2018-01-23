@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Switch, Route } from 'react-router-dom';
 import NotFoundPage from './NotFoundPage';
-import GameScore from './GameScore';
+import GameScore from './GameScore/GameScore.container';
 import AppBar from 'material-ui/AppBar';
 const injectTapEventPlugin = require("react-tap-event-plugin");
 injectTapEventPlugin();
@@ -18,8 +18,7 @@ class App extends React.Component {
       <div>
         <div>
           <AppBar
-            title="Title"
-            iconClassNameRight="muidocs-icon-navigation-expand-more"
+            title="BrickDroid Stats"
           />
         </div>
         <Switch>

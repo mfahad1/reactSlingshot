@@ -21,3 +21,6 @@ export const savings = shape({
   annual: PropTypes.oneOf[number,string],
   threeYear: PropTypes.oneOf[number,string],
 });
+
+
+export const RECEIVE_SCORE = 'RECEIVE_SCORE';
